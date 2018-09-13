@@ -1,0 +1,25 @@
+{
+	"index.html": {
+		"refer": [
+			"page3.html",
+			"icon.html",
+			"testfonts.html",
+			"testfont2.html"
+		]
+	},
+	"page3.html": {
+		"refer": [
+			"index.html"
+		]
+	},
+	"icon.html": {
+		"refer": [
+			"index.html"
+		]
+	},
+	"testfont2.html": {
+		"refer": [
+			"index.html"
+		]
+	}
+}

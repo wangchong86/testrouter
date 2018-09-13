@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>集中调度系统</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+		<link rel="shortcut icon" href="/favicon.ico">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<link rel="stylesheet" href="css/sm.css">
+	</head>
+	<body>
+		<div class="page-group">
+			<div class="page page-current" id="index">
+				<header class="bar bar-nav" style="background:#359dd3;">
+					<h1 class='title' style="color: white;">集中调度系统</h1>
+				</header>
+				<div class="content">
+					<a href="#router3">内联页面</a><p/>
+					<a href="page1.html">加载div</a><p/>
+					<a href="page2.html">加载完整界面</a><p/>
+					<a href="page3.html" class="external">外联界面</a><p/>
+					<span class="icon icon-left">返回</a>
+					<button class="button" id="indexBtn">显示变量</button>
+					<button class="button" id="modalLoginBtn">显示登录</button>
+					<button class="button" id="rsa">加密</button>
+					<textarea id="msg" style="width: 100%;height: 200px;"></textarea>
+				</div>
+				</div>
+				<div class="page" id='router3'>
+					<header class="bar bar-nav">
+						<a class="button button-link button-nav pull-left back" href="#index">
+							<span class="icon icon-left"></span> 返回
+						</a>
+						<h1 class='title'>路由</h1>
+					</header>
+					<div class="content">
+						<div class="content-block">
+							这是内联编写的页面，点击左上角的
+							<a href="#" class='back'>返回</a> 按钮返回上一页。
+						</div>
+					</div>
+				</div>
+			</div>
+			<script type='text/javascript' src='js/zepto.min.js' charset='utf-8'></script>
+		    <script type='text/javascript' src='js/sm.js' charset='utf-8'></script>
+		    <script type='text/javascript' src='js/jsencrypt.min.js' charset='utf-8'></script>
+		   <script type='text/javascript' src='js/index.js' charset='utf-8'></script>
+		   
+	</body>
+</html>
